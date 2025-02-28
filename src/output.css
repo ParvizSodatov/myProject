@@ -558,6 +558,14 @@ video {
   font-size: 70px;
 }
 
+.text-\[5px\] {
+  font-size: 5px;
+}
+
+.text-\[50px\] {
+  font-size: 50px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -583,4 +591,9 @@ video {
 
 .text-\[70\] {
   color: 70;
+}
+
+.text-green-400 {
+  --tw-text-opacity: 1;
+  color: rgb(74 222 128 / var(--tw-text-opacity, 1));
 }
