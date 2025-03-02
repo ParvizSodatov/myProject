@@ -675,6 +675,50 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mt-\[\] {
+  margin-top: ;
+}
+
+.mt-\[5\%\] {
+  margin-top: 5%;
+}
+
+.mt-\[1px\] {
+  margin-top: 1px;
+}
+
+.mt-\[px\] {
+  margin-top: px;
+}
+
+.mt-\[0\.5px\] {
+  margin-top: 0.5px;
+}
+
+.mt-\[0\.9px\] {
+  margin-top: 0.9px;
+}
+
+.mt-\[0\.8px\] {
+  margin-top: 0.8px;
+}
+
+.mt-\[0\.7px\] {
+  margin-top: 0.7px;
+}
+
+.mt-\[0\.6px\] {
+  margin-top: 0.6px;
+}
+
+.mt-\[0\.6hpx\] {
+  margin-top: 0.6hpx;
+}
+
 .flex {
   display: flex;
 }
