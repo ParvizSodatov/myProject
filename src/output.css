@@ -1071,6 +1071,14 @@ video {
   text-align: center;
 }
 
+.text-right {
+  text-align: right;
+}
+
+.text-start {
+  text-align: start;
+}
+
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
