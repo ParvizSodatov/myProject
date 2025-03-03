@@ -6,13 +6,13 @@
     <title>Document</title>
     <link rel="stylesheet" href="/fontawesome-free-6.7.2-web/css/all.css">
     <link rel="stylesheet" href="./output.css">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <nav class="bg-gray-800 text-gray-300 flex justify-around items-center py-4">
         <img src="./icons8-euro-money-50.png" alt="" class="h-10">
-        <ul class="flex justify-between w-[40%]">
-            <li><a href="#about" class="hover:text-white transition">About Us</a></li>
+        <ul class="md:flex justify-between hidden w-[40%]">
+            <li><a href="./index.html" class="hover:text-white transition">About Us</a></li>
             <li><a href="./second.html" class="hover:text-white transition">Our Team</a></li>
             <li><a href="./last.html" class="hover:text-white transition">Connect</a></li>
         </ul>
@@ -30,13 +30,13 @@
 
     </nav>
 
-    <section class="flex justify-around mt-[3%] bg-gray-100 py-12 gap-6 items-center">
+    <section class="md:flex justify-around mt-[3%] bg-gray-100 py-12 gap-6 items-center px-5">
         
         <img src="./event.avif" alt=""
-            class="w-[30%] rounded-lg shadow-lg">
-            <aside class="w-[30%]">
-                <h1 class="text-5xl font-bold text-gray-800 mb-4">We want that each of you are were in our event's</h1>
-                <p class="text-lg text-gray-600 text-start mx-auto">
+            class="md:w-[30%] rounded-lg shadow-lg" data-aos="zoom-in">
+            <aside class="md:w-[30%]" data-aos="zoom-in">
+                <h1 class="text-5xl font-bold text-gray-800 mb-4 md:text-start text-center">We want that each of you are were in our event's</h1>
+                <p class="text-lg text-gray-600 md:text-start text-center mx-auto">
                     we hold our own events almost every month and we want young people to learn more about our company
                     Join our network of top professionals and take your company to the next level.
                 </p>
@@ -46,7 +46,7 @@
 
 
 
-    <section class="container mx-auto py-16">
+    <section class="container mx-auto py-16" data-aos="zoom-in-up">
         <div class="text-center mb-12">
           <h2 class="text-3xl font-semibold text-gray-900">Register for an Event</h2>
           <p class="text-gray-600 mt-2">Sign up to attend our exclusive business events.</p>
@@ -76,8 +76,8 @@
       </section>
 
 
-      <section class="flex justify-around mt-[3%] bg-gray-100 py-12 gap-16 items-center">
-        <aside class="w-[30%]">
+      <section class="md:flex justify-around mt-[3%] bg-gray-100 py-12 gap-16 items-center px-5">
+        <aside class="md:w-[30%] md:text-start text-center" data-aos="zoom-in">
             <h1 class="text-5xl font-bold text-gray-800 mb-4">Our free consultations for promising people</h1>
             <p class="text-lg text-gray-600 leading-relaxed mx-auto">
                 Our experienced specialists provide free consultations for those who want to work with us and learn the basic terms of business consulting
@@ -85,14 +85,14 @@
             </p>
         </aside>
         <img src="./freeconsultation.webp" alt=""
-            class="w-[30%] rounded-lg shadow-lg">
+            class="md:w-[30%] rounded-lg shadow-lg" data-aos="zoom-in">
     </section>
 
 
 
 
       
-      <section class="container mx-auto py-16">
+      <section class="container mx-auto py-16" data-aos="zoom-in-up">
         <div class="text-center mb-12">
           <h2 class="text-3xl font-semibold text-gray-900">Request a Free Consultation</h2>
           <p class="text-gray-600 mt-2">Get expert advice tailored to your business needs.</p>
@@ -187,7 +187,9 @@
           <p>&copy; 2025 Your Company. All rights reserved.</p>
         </div>
       </footer>
-
-    
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
 </body>
 </html>
