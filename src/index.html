@@ -7,16 +7,16 @@
     <link href="./output.css" rel="stylesheet">
     <link rel="stylesheet" href="/fontawesome-free-6.7.2-web/css/all.css">
     <title>Document</title>
-    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
     <nav class="bg-gray-800 text-gray-300 flex justify-around items-center py-4">
         <img src="./icons8-euro-money-50.png" alt="" class="h-10">
-        <ul class="flex justify-between w-[40%]">
+        <ul class="md:flex justify-between w-[40%] hidden ">
             <li><a href="#about" class="hover:text-white transition">About Us</a></li>
-            <li><a href="#team" class="hover:text-white transition">Our Team</a></li>
-            <li><a href="#contact" class="hover:text-white transition">Connect</a></li>
+            <li><a href="./second.html" class="hover:text-white transition">Our Team</a></li>
+            <li><a href="./last.html" class="hover:text-white transition">Connect</a></li>
         </ul>
         <div>
             <button
@@ -31,8 +31,15 @@
 
 
     </nav>
-    <section class="flex justify-around mt-[3%] bg-gray-100 py-12 gap-16 items-center">
-        <aside class="w-[30%]">
+
+
+
+
+
+
+    
+    <section class="md:flex justify-around mt-[3%] bg-gray-100 py-12 gap-16 items-center px-5" data-aos="fade-up">
+        <aside class="md:w-[30%] text-center md:text-start">
             <h1 class="text-5xl font-bold text-gray-800 mb-4">Empowering Your Business for Success</h1>
             <p class="text-lg text-gray-600 leading-relaxed mx-auto">
                 We provide expert consulting services to help your business grow, optimize operations, and achieve
@@ -41,13 +48,16 @@
             </p>
         </aside>
         <img src="./stock-photo-empty-meeting-room-in-office-2173235165.jpg" alt=""
-            class="w-[30%] rounded-lg shadow-lg">
+            class="md:w-[30%] rounded-lg shadow-lg">
     </section>
-    <section class="mt-6">
+
+
+
+    <section class="mt-6 hidden md:block" data-aos="fade-up">
         <h1 class="text-[35px] font-bold w-[50%] m-auto text-center">What we do? We assist companies in optimizing finances, attracting investments, and minimizing financial
             risks.</h1>
 <div class="flex justify-around mt-8 gap-6">
-    <article class="relative w-[30%] min-h-64 border border-gray-300 rounded-lg p-6 shadow-lg text-gray-700 bg-white flex flex-col justify-between">
+    <article class="relative w-[30%] min-h-64 border border-gray-300 rounded-lg p-6 shadow-lg text-gray-700 bg-white flex flex-col justify-between" data-aos="zoom-in">
         <i class="fas fa-chart-line text-blue-500 text-4xl"></i>
         
         <h3 class="text-xl font-semibold text-gray-800">Business Growth</h3>
@@ -71,7 +81,7 @@
        
     </article>
     
-    <article class="relative w-[30%] min-h-64 border border-gray-300 rounded-lg p-6 shadow-lg text-gray-700 bg-white flex flex-col justify-between">
+    <article class="relative w-[30%] min-h-64 border border-gray-300 rounded-lg p-6 shadow-lg text-gray-700 bg-white flex flex-col justify-between" data-aos="zoom-in">
         <i class="fas fa-money-bill-wave text-blue-500 text-4xl mb-4"></i>
         
         <h3 class="text-xl font-semibold text-gray-800">Financial Consulting</h3>
@@ -95,7 +105,7 @@
         <i class="fas fa-money-bill-wave text-gray-200 text-6xl absolute top-2 right-2"></i>
     </article>
     
-    <article class="relative w-[30%] min-h-64 border border-gray-300 rounded-lg p-6 shadow-lg text-gray-700 bg-white flex flex-col justify-between">
+    <article class="relative w-[30%] min-h-64 border border-gray-300 rounded-lg p-6 shadow-lg text-gray-700 bg-white flex flex-col justify-between" data-aos="zoom-in">
         <i class="fas fa-bullhorn text-blue-500 text-4xl mb-4"></i>
         
         <h3 class="text-xl font-semibold text-gray-800">Marketing & Brand Strategy</h3>
@@ -125,14 +135,14 @@
     <section class="container mx-auto py-8">
         <div class="flex flex-col lg:flex-row items-center justify-between border-t-2 border-gray-200 pt-8">
          
-          <div class="lg:w-1/2 text-center lg:text-left mb-8 lg:mb-0 px-4 lg:px-8 border-r-2 border-gray-200">
+          <div class="lg:w-1/2 text-center lg:text-left mb-8 lg:mb-0 px-4 lg:px-8 border-r-2 border-gray-200" data-aos="zoom-in">
             <h2 class="text-[45px] font-bold mb-4">Who We Work With</h2>
             <p class="text-lg text-gray-600">We take pride in collaborating with industry leaders, ensuring the success of our clients.</p>
           </div>
           
           
-          <div class="lg:w-1/2 grid grid-cols-3 gap-8 justify-center px-4 lg:px-8">
-            <div class="flex justify-center items-center">
+          <div class="lg:w-1/2 grid grid-cols-3 gap-8 justify-center px-4 lg:px-8" data-aos="zoom-in">
+            <div class="flex justify-center items-center" >
               <img src="./vis_2_logo_original.jpg" alt="Logo 1" class="max-h-15">
             </div>
             <div class="flex justify-center items-center">
@@ -156,7 +166,7 @@
       <section class="container mx-auto py-8 mt-[1%]">
         <div class="flex flex-col lg:flex-row items-center justify-between border-t-2 border-gray-200 pt-8 gap-16">   
           <div class="lg:w-1/2 flex justify-center items-center">
-            <img src="./office-space-team.webp" alt="Why Choose Us" class="max-w-full rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 ease-in-out">
+            <img src="./office-space-team.webp" alt="Why Choose Us" class="max-w-full rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 ease-in-out" data-aos="zoom-in">
           </div>
           <div class="lg:w-1/2 text-center lg:text-left mb-8 lg:mb-0 px-4 lg:px-8">
             <h2 class="text-[45px] font-bold mb-4">Why Choose Us</h2>
@@ -171,7 +181,7 @@
       <footer class="bg-gray-800 text-white py-8">
         <div class="container mx-auto px-4">
           <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
-            <!-- Ссылки -->
+          
             <div>
               <h3 class="text-xl font-semibold mb-4">Quick Links</h3>
               <ul>
@@ -182,7 +192,7 @@
               </ul>
             </div>
       
-            <!-- Форма подписки -->
+     
             <div>
               <h3 class="text-xl font-semibold mb-4">Subscribe</h3>
               <p class="text-gray-400 mb-4">Stay updated with our latest news and offers.</p>
@@ -201,7 +211,7 @@
               </form>
             </div>
       
-            <!-- Социальные сети -->
+          
             <div>
               <h3 class="text-xl font-semibold mb-4">Follow Us</h3>
               <div class="flex space-x-4">
@@ -220,7 +230,7 @@
               </div>
             </div>
       
-            <!-- Контактная информация -->
+          
             <div>
               <h3 class="text-xl font-semibold mb-4">Contact</h3>
               <p class="text-gray-400">Profsoyuz, Dushanbe, Tajikistan</p>
@@ -235,9 +245,11 @@
         </div>
       </footer>
       
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
       
-      
-
 </body>
 
 </html>
